@@ -1,58 +1,58 @@
 {
-  "name": "myapp",
-  "version": "1.0.0",
-  "description": "my personal portfolio website ",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TensaZangetsu/portfolio.git"
-  },
-  "keywords": [
-    "portfolio"
-  ],
-  "author": "Radoman Milos",
-  "license": "ISC",
-  
-  "bugs": {
-    "url": "https://github.com/TensaZangetsu/portfolio/issues"
-  },
-  "homepage": "https://github.com/TensaZangetsu/portfolio#readme",
-   "devDependencies": {
-    "body-parser": "^1.17.2",
-    "browser-sync": "^2.18.12",
-    "del": "^3.0.0",
-    "express": "^4.15.3",
-    "gulp": "^3.9.1",
-    "gulp-angular-templatecache": "^2.0.0",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-cache": "^0.4.6",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-if": "^2.0.2",
-    "gulp-imagemin": "^3.3.0",
-    "gulp-inject": "^4.2.0",
-    "gulp-jscs": "^4.0.0",
-    "gulp-jshint": "^2.0.4",
-    "gulp-load-plugins": "^1.5.0",
-    "gulp-nodemon": "^2.2.1",
-    "gulp-plumber": "^1.1.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.0",
-    "gulp-uglify": "^3.0.0",
-    "gulp-useref": "^3.1.2",
-    "gulp-util": "^3.0.8",
-    "gulp-wait": "0.0.2",
-    "jshint": "^2.9.5",
-    "jshint-stylish": "^2.2.1",
-    "morgan": "^1.8.2",
-    "run-sequence": "^2.0.0",
-    "susy": "^3.0.0",
-    "wiredep": "^4.0.0"
-  },
-  "dependencies": {
-    "lodash": "^4.17.4",
-    "normalize.css": "^7.0.0"
-  }
+    "name": "myapp",
+    "version": "1.0.0",
+    "description": "my personal portfolio website ",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TensaZangetsu/portfolio.git"
+    },
+    "keywords": [
+        "portfolio"
+    ],
+    "author": "Radoman Milos",
+    "license": "ISC",
+
+    "bugs": {
+        "url": "https://github.com/TensaZangetsu/portfolio/issues"
+    },
+    "homepage": "https://github.com/TensaZangetsu/portfolio#readme",
+    "devDependencies": {
+        "body-parser": "*",
+        "browser-sync": "^2.18.12",
+        "del": "^3.0.0",
+        "express": "*",
+        "gulp": "^3.9.1",
+        "gulp-angular-templatecache": "^2.0.0",
+        "gulp-autoprefixer": "^4.0.0",
+        "gulp-cache": "^0.4.6",
+        "gulp-cssnano": "^2.1.2",
+        "gulp-if": "^2.0.2",
+        "gulp-imagemin": "^3.3.0",
+        "gulp-inject": "^4.2.0",
+        "gulp-jscs": "^4.0.0",
+        "gulp-jshint": "^2.0.4",
+        "gulp-load-plugins": "^1.5.0",
+        "gulp-nodemon": "^2.2.1",
+        "gulp-plumber": "^1.1.0",
+        "gulp-sass": "^3.1.0",
+        "gulp-sourcemaps": "^2.6.0",
+        "gulp-uglify": "^3.0.0",
+        "gulp-useref": "^3.1.2",
+        "gulp-util": "^3.0.8",
+        "gulp-wait": "0.0.2",
+        "jshint": "^2.9.5",
+        "jshint-stylish": "^2.2.1",
+        "morgan": "^1.8.2",
+        "run-sequence": "^2.0.0",
+        "susy": "^3.0.0",
+        "wiredep": "^4.0.0"
+    },
+    "dependencies": {
+        "lodash": "^4.17.4",
+        "normalize.css": "^7.0.0"
+    }
 }

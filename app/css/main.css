@@ -205,13 +205,8 @@ button.toast-close-button {
 html {
   font-size: 1em; }
 
-body {
-  background-color: black;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.45;
-  color: #b10dc9; }
+p {
+  margin-bottom: 1.3em; }
 
 h1,
 h2,
@@ -267,6 +262,15 @@ body {
 
 a {
   text-decoration: none; }
+
+.link-blue {
+  height: auto;
+  background-color: #00bcd4;
+  padding: 0.8rem;
+  color: white;
+  position: relative;
+  font-weight: 700;
+  margin-top: 0.2em; }
 
 ul {
   list-style: none; }
@@ -359,11 +363,18 @@ img {
   margin-top: -10%;
   position: relative; }
   .profile .about-text {
-    width: 50%;
-    margin: 0 auto; }
+    width: 100%;
+    padding: 5%;
+    margin: 0 auto;
+    color: #606060;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    background: white;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
   .profile h1 {
     color: #323232; }
-  .profile h2 {
+  .profile h4 {
     margin-bottom: 2rem; }
   .profile .fa {
     background: #666;
@@ -411,10 +422,14 @@ img {
             align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-top: 4rem;
     width: 100%; }
   .profile .profile-about {
-    width: 50%;
+    width: 100%;
     padding: 5%;
     padding-top: 3rem; }
     .profile .profile-about.inverse {
@@ -485,7 +500,18 @@ img {
   .display-3 {
     font-size: 4.5em; }
   .display-4 {
-    font-size: 3.5em; } }
+    font-size: 3.5em; }
+  .profile .about-text {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5%; }
+  .profile .wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -ms-flex-flow: row;
+        flex-flow: row; } }
 
 @media (min-width: 62em) {
   html,
@@ -496,13 +522,3 @@ img {
   html,
   body {
     font-size: 16px !important; } }
-
-.jumbotron {
-  font-size: 16px; }
-  @media (min-width: 62em) {
-    .jumbotron {
-      font-size: 20px; } }
-  .jumbotron h1 {
-    border-bottom: 4px solid #0275d8; }
-  .jumbotron p.lead {
-    border-radius: 4px; }

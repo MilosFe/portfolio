@@ -45,6 +45,17 @@
     .display-4 {
         font-size: 3.5em;
     }
+    .profile {
+        .about-text {
+            width: 80%;
+            margin: 0 auto;
+            padding: 5%;
+        }
+        .wrapper {
+            flex-direction: row-reverse;
+            flex-flow: row;
+        }
+    }
 }
 
 // Large devices (desktops, 62em and up)
@@ -60,19 +71,5 @@
     html,
     body {
         font-size: 16px !important;
-    }
-}
-
-// Pen Specific Styles
-.jumbotron {
-    font-size: 16px;
-    @media (min-width: 62em) {
-        font-size: 20px;
-    }
-    h1 {
-        border-bottom: 4px solid #0275d8;
-    }
-    p.lead {
-        border-radius: 4px;
     }
 }
