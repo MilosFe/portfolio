@@ -22,10 +22,10 @@
     },
     "homepage": "https://github.com/TensaZangetsu/portfolio#readme",
     "devDependencies": {
+        "express": "*",
         "body-parser": "*",
         "browser-sync": "^2.18.12",
         "del": "^3.0.0",
-        "express": "*",
         "gulp": "^3.9.1",
         "gulp-angular-templatecache": "^2.0.0",
         "gulp-autoprefixer": "^4.0.0",
