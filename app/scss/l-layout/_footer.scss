@@ -1,0 +1,21 @@
+footer {
+    clear: both;
+    padding-top: 200px;
+    padding: 0.8rem;
+    background-color: $primay-color;
+    color: white;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    ul {
+        display: flex;
+        a {
+            display: inline-block;
+            color: white;
+            margin-left: 0.5rem;
+        }
+    }
+}
