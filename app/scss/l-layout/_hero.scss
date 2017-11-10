@@ -9,7 +9,37 @@
     align-items: center;
     text-align: center;
     color: white;
+    overflow: hidden;
     .hero-center {
         width: 100%;
+    }
+    h1 {
+        font-weight: 700;
+        color: #fff;
+        background: linear-gradient(180deg, #fff 35%, #4e6773);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent
+    }
+    .moving-clouds {
+        background-image: url('../../images/clouds.png');
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        left: 0;
+        width: 250rem;
+        height: 60rem;
+        z-index: 0;
+        -webkit-animation: cloudLoop 80s linear infinite;
+        animation: cloudLoop 80s linear infinite
+    }
+    @keyframes cloudLoop {
+        0% {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0)
+        }
+        to {
+            -webkit-transform: translate3d(-50%, 0, 0);
+            transform: translate3d(-50%, 0, 0)
+        }
     }
 }

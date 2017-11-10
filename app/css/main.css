@@ -260,7 +260,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #44aee2; }
+  color: #868686; }
 
 a {
   text-decoration: none; }
@@ -356,9 +356,44 @@ img {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  color: white; }
+  color: white;
+  overflow: hidden; }
   .hero .hero-center {
     width: 100%; }
+  .hero h1 {
+    font-weight: 700;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #fff), to(#4e6773));
+    background: linear-gradient(180deg, #fff 35%, #4e6773);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .hero .moving-clouds {
+    background-image: url("../../images/clouds.png");
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 250rem;
+    height: 60rem;
+    z-index: 0;
+    -webkit-animation: cloudLoop 80s linear infinite;
+    animation: cloudLoop 80s linear infinite; }
+
+@-webkit-keyframes cloudLoop {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); }
+  to {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0); } }
+
+@keyframes cloudLoop {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); }
+  to {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0); } }
 
 .profile {
   width: 100%;
@@ -370,7 +405,6 @@ img {
     padding: 5%;
     margin: 0 auto;
     margin-top: 3rem;
-    color: #606060;
     font-size: 1.2rem;
     border-radius: 2px;
     background: white;
