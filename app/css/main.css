@@ -206,8 +206,7 @@ html {
   font-size: 1em; }
 
 p {
-  margin-bottom: 1.3em;
-  margin-bottom: 1.2em; }
+  margin-bottom: 1.3em; }
 
 h1,
 h2,
@@ -418,7 +417,7 @@ img {
     .profile h1::before {
       position: absolute;
       top: 0;
-      height: 1px;
+      height: 2px;
       width: 30%;
       content: "";
       background: #464646;
@@ -426,7 +425,7 @@ img {
     .profile h1::after {
       position: absolute;
       bottom: 0;
-      height: 1px;
+      height: 2px;
       width: 30%;
       content: "";
       background: #464646;
@@ -525,7 +524,29 @@ img {
 
 .work {
   margin-top: 5rem;
-  position: relative; }
+  position: relative;
+  text-align: center; }
+  .work h1 {
+    color: #323232;
+    display: inline-block;
+    position: relative;
+    margin-top: 20px; }
+    .work h1::before {
+      position: absolute;
+      top: 0;
+      height: 2px;
+      width: 30%;
+      content: "";
+      background: #464646;
+      left: -10%; }
+    .work h1::after {
+      position: absolute;
+      bottom: 0;
+      height: 2px;
+      width: 30%;
+      content: "";
+      background: #464646;
+      right: -10%; }
 
 .expirience {
   position: relative; }
@@ -535,6 +556,7 @@ img {
     width: 100%;
     position: relative; }
     .expirience .expirience-card .expirience-content {
+      text-align: left;
       margin: 2rem auto;
       clear: both;
       position: relative;
@@ -544,6 +566,13 @@ img {
       background: white;
       -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
               box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+      .expirience .expirience-card .expirience-content h3 {
+        text-align: left;
+        margin-bottom: 1rem; }
+      .expirience .expirience-card .expirience-content .expirience-job_city {
+        display: inline-block;
+        background: #eaeaea;
+        margin-bottom: 1.2em; }
 
 footer {
   clear: both;
