@@ -8,6 +8,7 @@ var app = (function(global, toastr, $) {
             $nav.toggleClass('show');
 
         };
+        myScript();
 
         $headerMenu.click(function() {
             toggleLayout();
