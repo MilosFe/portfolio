@@ -11,5 +11,5 @@
         'timeOut': 2000,
         'extendedTimeOut': 2000
     };
-    toastr.info('Admin Panel');
+    toastr.info('Loaded');
 })(window, toastr, jQuery, app);

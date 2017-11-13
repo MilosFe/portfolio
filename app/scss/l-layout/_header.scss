@@ -19,9 +19,11 @@
         justify-content: space-between;
         align-items: center;
     }
-    .header-menu {
+    .header-toggle {
         margin-left: 2em;
         cursor: pointer;
+        font-size: 1.5rem;
+        padding: 0.3rem;
     }
     .navigation-list {
         display: none;

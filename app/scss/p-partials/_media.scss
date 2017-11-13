@@ -48,7 +48,6 @@
     .profile {
         .about-text {
             width: 80%;
-            margin: 0 auto;
             padding: 5%;
         }
         .wrapper {
@@ -77,6 +76,7 @@
             top: 1rem;
             left: 50%;
             transform: translate(-50%, 0);
+            z-index: 1;
         }
         &::before {
             content: "";
@@ -102,11 +102,7 @@
                 margin: 0;
                 clear: both;
                 position: relative;
-                margin-bottom: 5px;
-                padding: 20px;
                 width: 44%;
-                background: white;
-                box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
             }
         }
     }

@@ -1,17 +1,23 @@
 footer {
     clear: both;
-    padding-top: 200px;
+    position: relative;
+    top: 3rem;
     padding: 0.8rem;
     background-color: $primay-color;
     color: white;
     .wrapper {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+        flex: column;
     }
     ul {
         display: flex;
+        justify-content: space-around;
+        li {
+            padding: 2%;
+        }
         a {
             display: inline-block;
             color: white;

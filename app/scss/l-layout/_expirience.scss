@@ -15,6 +15,7 @@
             content: "";
             background: #464646;
             left: -10%;
+            z-index: 1;
         }
         &::after {
             position: absolute;
@@ -24,15 +25,13 @@
             content: "";
             background: #464646;
             right: -10%;
+            z-index: 1;
         }
     }
 }
 
 .expirience {
     position: relative;
-    .wrapper {
-        position: relative;
-    }
     .expirience-card {
         width: 100%;
         position: relative;
@@ -42,7 +41,7 @@
             clear: both;
             position: relative;
             margin-bottom: 5px;
-            padding: 20px;
+            padding: 1.5rem;
             width: 90%;
             background: white;
             box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
