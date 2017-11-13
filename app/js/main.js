@@ -11,5 +11,5 @@
         'timeOut': 2000,
         'extendedTimeOut': 2000
     };
-    toastr.info('Loaded App');
+    toastr.info('Loaded App!');
 })(window, toastr, jQuery, app);
