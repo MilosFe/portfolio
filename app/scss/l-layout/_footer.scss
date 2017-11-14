@@ -1,10 +1,9 @@
 footer {
-    clear: both;
     position: relative;
-    top: 3rem;
     padding: 0.8rem;
     background-color: $primay-color;
     color: white;
+    margin-top: 5rem;
     .wrapper {
         display: flex;
         justify-content: space-around;
